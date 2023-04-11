@@ -17,7 +17,7 @@ Para o desenvolvimento do projeto foi preciso a pesquisa para entender o funcion
 * Cifra de Vigenere
 * Cifra de Substituição
 
-Além disso também foi debatido sobre o funcionamento de uma quarta cifra original criada pelo grupo.
+Além disso, também foi debatido sobre o funcionamento de uma quarta cifra original criada pelo grupo.
 
 ## Execução
 Para executar o projeto em seu terminal, vá até a pasta destino dos arquivos baixados e execute:
