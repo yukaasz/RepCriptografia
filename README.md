@@ -11,7 +11,7 @@ O grupo utilizou linguagem C para desenvolver a implementação completa do proj
 
 Foram usados também como base para a a melhor compreensão do assunto um encontro do HackoonSpace sobre criptografia e pesquisas na internet.
 ## Passo a passo
-Para o desenvolvimento do projeto foi preciso a pesquisa para entender o funcionamento das seguintes cifras básicas e famosas:
+Para o desenvolvimento do projeto, foi preciso a pesquisa para entender o funcionamento das seguintes cifras básicas e famosas:
 
 * Cifra de César
 * Cifra de Vigenere
