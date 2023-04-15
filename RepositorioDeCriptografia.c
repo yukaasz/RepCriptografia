@@ -488,3 +488,10 @@ void CifraYP() {
     printf("\n");
 
   };
+
+  /*
+  Realizado por:
+  Daniella Yuka Hirosue e Pedro Henrique Alves de Araujo Silva
+  como projeto de extensão para o primeiro semestre do curso de ciencia da computacao da Universidade Federal de Sao Carlos, 
+  para a entidade HackoonSpace, campus sorocaba.
+  */
