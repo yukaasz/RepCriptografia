@@ -13,10 +13,10 @@ int main(void) {
   char operacao;
 
   printf("Bem vindo ao decodificador 2000, o maior e melhor programa de criptografias do universo!!!\n\n");
-  printf("Selecione uma opção de criptografia:\n");
-  printf("1 - Cifra de César\n");
+  printf("Selecione uma opcao de criptografia:\n");
+  printf("1 - Cifra de Cesar\n");
   printf("2 - Cifra de Vigenere\n");
-  printf("3 - Cifra de Substituição\n");
+  printf("3 - Cifra de Substituicao\n");
   printf("4 - Cifra YP\n");
   printf("\n");
   
@@ -54,7 +54,7 @@ void CifraDeCesar() {
   printf("Digite a quantidade de caracteres a serem deslocados: ");
   scanf("%d", &desl);
 
-  if (desl > 26) { // Ajusta o valor do deslocamento para um número válido dentro da quantidade de caracteres do Alfabeto
+  if (desl > 26) { // Ajusta o valor do deslocamento para um numero valido dentro da quantidade de caracteres do Alfabeto
     desl %= 26;
   }
 
@@ -62,7 +62,7 @@ void CifraDeCesar() {
   
   getchar();
 
-  while(1){ // Loop para pegar e printas o código
+  while(1){ // Loop para pegar e printas o codigo
 
     palavra = getchar();
 
@@ -70,7 +70,7 @@ void CifraDeCesar() {
       break;
     }
 
-    // Ajusta o código para que continue dentro do intervalo das letras dentro da Tabela ASCII
+    // Ajusta o codigo para que continue dentro do intervalo das letras dentro da Tabela ASCII
     cod = palavra + desl;
     
     if(palavra != 10){
@@ -92,12 +92,12 @@ void CifraDeVigenere() {
 
   char palavra[10000], aux[10000], PalavraChave[10000];
 
-  printf("\nOpção escolhida: Cifra de Vigenere\n\nDigite uma frase sem espaços usando apenas letras, no seguinte formato: 'atacarbasesul' ou 'ATACARBASESUL'\n\n");
+  printf("\nOpcao escolhida: Cifra de Vigenere\n\nDigite uma frase sem espacos usando apenas letras, no seguinte formato: 'atacarbasesul' ou 'ATACARBASESUL'\n\n");
 
   printf("Digite a palavra a ser criptografada: ");
   scanf("%s", palavra);
 
-  printf("\nDigite uma palavra-chave sem espaços usando apenas letras, no seguinte formato: 'limao' ou 'LIMAO'\n\n");
+  printf("\nDigite uma palavra-chave sem espacos usando apenas letras, no seguinte formato: 'limao' ou 'LIMAO'\n\n");
 
   printf("Digite a palavra-chave: ");
   scanf("%s", aux);
@@ -455,7 +455,7 @@ void CifraYP() {
   printf("Digite a quantidade de caracteres a serem deslocados: ");
   scanf("%d", &desl);
 
-  if (desl > 26) {  // Ajusta o valor do deslocamento para um número válido dentro da quantidade de caracteres do Alfabeto
+  if (desl > 26) {  // Ajusta o valor do deslocamento para um numero valido dentro da quantidade de caracteres do Alfabeto
     desl %= 26;
   }
 
@@ -492,6 +492,6 @@ void CifraYP() {
   /*
   Realizado por:
   Daniella Yuka Hirosue e Pedro Henrique Alves de Araujo Silva
-  como projeto de extensão para o primeiro semestre do curso de ciencia da computacao da Universidade Federal de Sao Carlos, 
+  como projeto de extensao para o primeiro semestre do curso de ciencia da computacao da Universidade Federal de Sao Carlos, 
   para a entidade HackoonSpace, campus sorocaba.
   */
