@@ -30,3 +30,5 @@ gcc main.c -o main
 ## Autores
 * Daniella Yuka Hirosue
 * Pedro Henrique Alves de Araujo Silva
+
+Este projeto é uma produção para entidade de cultura Hacker HackoonSpace, da Universidade Federal de São Carlos, campus Sorocaba, com o intuito de validar créditos de extensão para 1° semestre dos autores.
